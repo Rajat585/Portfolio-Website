@@ -1,0 +1,87 @@
+[
+  {
+    "model": "core.project",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-01-01T00:00:00Z",
+      "title": "Trading Dashboard",
+      "description": "Real-time market tracking dashboard built with HTML, CSS & JavaScript, with live data updates.",
+      "tech_stack": "HTML, CSS, JavaScript",
+      "github_link": "https://github.com/Rajat585/sharemarketonline",
+      "live_demo_link": "",
+      "icon": "bi-graph-up-arrow",
+      "is_featured": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 2,
+    "fields": {
+      "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-01-01T00:00:00Z",
+      "title": "Titan Trade",
+      "description": "Secure trading platform with live charts and recruiter-ready dashboards. Improved data speed with caching.",
+      "tech_stack": "Python, Django, Caching",
+      "github_link": "https://github.com/Rajat585/TitanTrade-Django",
+      "live_demo_link": "",
+      "icon": "bi-bar-chart-line",
+      "is_featured": true,
+      "order": 2
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 3,
+    "fields": {
+      "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-01-01T00:00:00Z",
+      "title": "Hotel Booking System",
+      "description": "Responsive booking system with cryptographic security and streamlined workflow.",
+      "tech_stack": "Python, Django, Bootstrap",
+      "github_link": "https://github.com/Rajat585/HMS",
+      "live_demo_link": "",
+      "icon": "bi-building",
+      "is_featured": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "core.certification",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-06-30T00:00:00Z", "updated_at": "2026-06-30T00:00:00Z",
+      "title": "Full Stack Development",
+      "issuing_authority": "Mantra Institute, Ujjain",
+      "description": "12-month certificate in full stack Python development.",
+      "is_verified": true,
+      "date_issued": "2026-06-30",
+      "order": 1
+    }
+  },
+  {
+    "model": "core.certification",
+    "pk": 2,
+    "fields": {
+      "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-01-01T00:00:00Z",
+      "title": "Computer Operator & Programming Assistance (COPA)",
+      "issuing_authority": "Diploma",
+      "description": "",
+      "is_verified": true,
+      "date_issued": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "core.internship",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-05-01T00:00:00Z", "updated_at": "2026-05-01T00:00:00Z",
+      "company_name": "SarthMandi (Shoton Ventures Pvt. Ltd.)",
+      "role": "Business Development & Market Research Intern",
+      "location": "Ujjain",
+      "start_date": "2026-04-01",
+      "end_date": "2026-05-31",
+      "responsibilities": "Conducted market research, business development, and lead generation.\nGained practical exposure to agri-business operations and digital market research.",
+      "order": 1
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn daemon for Rajat Verma portfolio (Django)
+After=network.target mysql.service
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/portfolio
+EnvironmentFile=/var/www/portfolio/.env
+ExecStart=/var/www/portfolio/venv/bin/gunicorn -c gunicorn_conf.py portfolio_backend.wsgi:application
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
